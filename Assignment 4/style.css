@@ -1,0 +1,39 @@
+/* reset css mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* css trang web */
+.header {
+  height: 50px; /* chiều cao của header */
+  background-color: rgb(57, 93, 211); 
+  color: white;
+  line-height: 50px; /* căn giữa theo chiều dọc */
+  margin-bottom: 10px; /* khoảng cách giữa header và container */
+}
+
+.container {
+  display: flex;
+  gap: 10px; /* khoảng cách giữa sidebar và content */
+  height: calc(100vh - 120px); /* chiều cao của container bằng chiều cao của viewport trừ đi chiều cao của header và footer */
+}
+
+.sidebar {
+  width: 25%; /* chiều rộng của sidebar bằng 25% của container */
+  background-color: #2da72d;
+  color: white;
+}
+
+.content {
+  width: 75%; /* chiều rộng của content bằng 75% của container */
+  background-color: #eb3434;
+  color: white;
+}
+
+.footer {
+  height: 50px;
+  background-color: purple;
+  margin-top: 10px;
+  color: white;
+}
